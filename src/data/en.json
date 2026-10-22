@@ -1,0 +1,265 @@
+{
+  "profile": {
+    "name": "Gilang Risqi Pratama",
+    "headline": "Web Developer · Operations & Customer Service",
+    "summary": "Computer Science undergraduate at Universitas Islam Syekh-Yusuf Tangerang with experience in web application development and in operations and customer service."
+  },
+  "skills": {
+    "technical": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js",
+      "PostgreSQL",
+      "Supabase",
+      "RESTful API",
+      "Data Cleaning & Processing"
+    ],
+    "operational": [
+      "Stock Checking & Record-Keeping",
+      "POS/Cash Register Operation",
+      "Customer Service",
+      "Teamwork",
+      "Operational Procedure Compliance",
+      "Communication",
+      "Presentation",
+      "Adaptability",
+      "Problem Solving"
+    ]
+  },
+  "experience": [
+    {
+      "id": "exp-intern",
+      "role": "Web Application Development Intern",
+      "organization": "PT. Garasi Creasindo Indonesia",
+      "period": "October 2025 – January 2026",
+      "track": "it",
+      "contribution": "team",
+      "responsibilities": [
+        "Involved in developing a web application for daily report recording across multiple departments at a printing company.",
+        "Worked on the daily report input feature and the monthly report summary view.",
+        "Implemented Update and Delete functions for admin-role users.",
+        "Collaborated with two team members."
+      ],
+      "competencies": [],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "PostgreSQL",
+        "Supabase"
+      ]
+    },
+    {
+      "id": "exp-kkn",
+      "role": "Equipment Division",
+      "organization": "Community Service Program (KKN)",
+      "period": "August 2025 – September 2025",
+      "track": "general",
+      "contribution": "team",
+      "responsibilities": [
+        "Recorded equipment needs for program activities.",
+        "Assisted with procurement and inspection of goods.",
+        "Coordinated the distribution of equipment.",
+        "Ensured equipment availability for program execution."
+      ],
+      "competencies": [],
+      "technologies": []
+    },
+    {
+      "id": "exp-hokben",
+      "role": "Part-Time Crew Store",
+      "organization": "HOKBEN",
+      "period": "December 2023 – June 2024",
+      "track": "general",
+      "contribution": "unspecified",
+      "responsibilities": [
+        "Checked received goods against delivery details; recorded stock withdrawals from the warehouse (dry goods and chiller stock).",
+        "Reported stock and operational activities per shift to the Head Shift or Supervisor.",
+        "Checked order completeness and packed orders; operated the POS system; assisted with customer service and cooking as needed."
+      ],
+      "competencies": [
+        "Stock checking and record-keeping",
+        "Attention to detail",
+        "POS system operation",
+        "Customer service",
+        "Teamwork",
+        "Operational procedure compliance"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "exp-data-cleaning",
+      "role": "Data Cleaning and Research Data Processing",
+      "organization": "",
+      "period": "",
+      "track": "it",
+      "contribution": "unspecified",
+      "responsibilities": [
+        "Checked for missing data, identified and removed duplicates, standardised formats, compiled summaries, and verified data consistency.",
+        "Scope: data cleaning on approximately 800 data records."
+      ],
+      "competencies": [],
+      "technologies": []
+    },
+    {
+      "id": "exp-gerai-air",
+      "role": "Cashier & Shift Leader",
+      "organization": "Gerai Air Minum Biru",
+      "period": "March 2022 – April 2023",
+      "track": "general",
+      "contribution": "team",
+      "responsibilities": [
+        "Recorded income and expenses per shift; checked physical stock against inventory records.",
+        "Ensured smooth handover between shifts.",
+        "Coordinated operations across one cashier and two water-refill staff members.",
+        "Monitored stock levels and operational needs; escalated customer complaints and operational issues to the business owner."
+      ],
+      "competencies": [],
+      "technologies": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-daily-report",
+      "title": "Daily Report Web Application",
+      "description": "A web application for recording daily reports from multiple departments at a printing company. Features include daily report input, monthly report summary, and Update/Delete functions for admin users. Based on the most recent information provided, the application is still in use by the company.",
+      "contribution": "team",
+      "teamNote": "Together with two team members.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "PostgreSQL",
+        "Supabase"
+      ],
+      "links": {
+        "demo": "",
+        "repo": ""
+      }
+    },
+    {
+      "id": "proj-hiplan",
+      "title": "HiPlan",
+      "description": "An application for exploring mountains in Indonesia. A team capstone project from the Coding Camp powered by DBS Foundation 2025 program.",
+      "contribution": "team",
+      "teamNote": "Team capstone project.",
+      "technologies": [],
+      "links": {
+        "demo": "",
+        "repo": "https://github.com/HarHamz/HiPlan"
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach-coding-camp",
+      "title": "Selected Participant, Coding Camp powered by DBS Foundation 2025",
+      "evidence": "Selected from approximately 3,000 participants out of more than 60,000 applicants.",
+      "source": "Coding Camp 2025 Selection"
+    },
+    {
+      "id": "ach-gpa",
+      "title": "GPA 3.79 / 4.00",
+      "evidence": "Cumulative Grade Point Average in the Bachelor of Computer Science program, Universitas Islam Syekh-Yusuf Tangerang.",
+      "source": "Universitas Islam Syekh-Yusuf Tangerang"
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-s1",
+      "institution": "Universitas Islam Syekh-Yusuf Tangerang",
+      "program": "Bachelor of Computer Science (S1 Teknik Informatika)",
+      "period": "August 2022 – August 2026",
+      "gpa": "3.79 / 4.00",
+      "notes": "Core knowledge areas: software development, information system design, databases, and data processing."
+    },
+    {
+      "id": "edu-smk",
+      "institution": "SMK Persada",
+      "program": "Computer and Network Engineering (Teknik Komputer dan Jaringan)",
+      "period": "2018 – 2021",
+      "gpa": "",
+      "notes": "Vocational education in computer and network engineering."
+    }
+  ],
+  "training": [
+    {
+      "id": "train-coding-camp",
+      "name": "Coding Camp powered by DBS Foundation 2025",
+      "program": "Full-Stack Developer & Self Development",
+      "period": "February – June 2025",
+      "details": [
+        "Intensive training of approximately 900 hours: self-paced learning, sessions with industry practitioners, and mentoring by professional mentors.",
+        "Technical content: HTML, CSS, JavaScript, Node.js, RESTful API.",
+        "Self-development content: problem solving, communication, presentation, adaptability, teamwork."
+      ]
+    }
+  ],
+  "contact": {
+    "email": "gilangrisqi3@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/gilang-risqi/",
+    "github": "https://github.com/GilangRisqi",
+    "cv": "/cv/Gilang_Risqi_Pratama_CV_General_Maganghub_ID.pdf"
+  },
+  "ui": {
+    "nav": {
+      "navLabel": "Main navigation",
+      "about": "About",
+      "skills": "Skills",
+      "experience": "Experience",
+      "projects": "Projects",
+      "achievements": "Achievements",
+      "training": "Training",
+      "education": "Education",
+      "contact": "Contact"
+    },
+    "labels": {
+      "sectionTitles": {
+        "about": "About",
+        "skills": "Skills",
+        "experience": "Experience",
+        "projects": "Projects",
+        "achievements": "Achievements",
+        "training": "Training",
+        "education": "Education",
+        "contact": "Contact"
+      },
+      "hero": {
+        "ctaExperience": "View Experience",
+        "ctaContact": "Get in Touch"
+      },
+      "trackLabels": {
+        "it": "IT",
+        "general": "Operations & Service"
+      },
+      "contributionLabels": {
+        "individual": "Individual",
+        "team": "Team",
+        "unspecified": "Not specified"
+      },
+      "skillsGroups": {
+        "technical": "Technical",
+        "operational": "Operational & Interpersonal"
+      },
+      "experience": {
+        "technologies": "Technologies",
+        "competencies": "Competencies"
+      },
+      "projects": {
+        "teamNote": "Team note",
+        "viewRepo": "View Repository",
+        "viewDemo": "View Demo"
+      },
+      "contact": {
+        "intro": "Feel free to reach out through any of the channels below.",
+        "downloadCV": "Download CV",
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+      }
+    }
+  }
+}

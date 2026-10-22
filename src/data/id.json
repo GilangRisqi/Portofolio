@@ -1,0 +1,265 @@
+{
+  "profile": {
+    "name": "Gilang Risqi Pratama",
+    "headline": "Web Developer · Operasional & Layanan Pelanggan",
+    "summary": "Lulusan Sarjana Teknik Informatika dari Universitas Islam Syekh-Yusuf dengan pengalaman dalam pengembangan aplikasi web, pengolahan data, administrasi, serta operasional kerja. Memiliki kemampuan dalam pengembangan perangkat lunak, pengelolaan basis data, pencatatan dan pemeriksaan data, serta penyusunan laporan operasional. Terbiasa bekerja secara teliti, mengikuti prosedur, berkomunikasi, dan berkolaborasi dalam tim. Memiliki motivasi untuk terus belajar, berkembang, dan memberikan kontribusi nyata dalam lingkungan kerja yang profesional."
+  },
+  "skills": {
+    "technical": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js",
+      "PostgreSQL",
+      "Supabase",
+      "RESTful API",
+      "Pembersihan & Pengolahan Data"
+    ],
+    "operational": [
+      "Pemeriksaan & Pencatatan Stok",
+      "Penggunaan Sistem POS/Kasir",
+      "Pelayanan Pelanggan",
+      "Kerja Sama Tim",
+      "Pelaksanaan Prosedur Operasional",
+      "Komunikasi",
+      "Presentasi",
+      "Adaptabilitas",
+      "Pemecahan Masalah"
+    ]
+  },
+  "experience": [
+    {
+      "id": "exp-intern",
+      "role": "Web Application Development Intern",
+      "organization": "PT. Garasi Creasindo Indonesia",
+      "period": "Oktober 2025 – Januari 2026",
+      "track": "it",
+      "contribution": "team",
+      "responsibilities": [
+        "Terlibat dalam pengembangan aplikasi web untuk pencatatan laporan harian dari berbagai departemen di perusahaan percetakan.",
+        "Mengerjakan fitur input laporan harian dan tampilan rekap laporan bulanan.",
+        "Mengimplementasikan fungsi Update dan Delete untuk pengguna dengan peran admin.",
+        "Berkolaborasi dengan dua anggota tim."
+      ],
+      "competencies": [],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "PostgreSQL",
+        "Supabase"
+      ]
+    },
+    {
+      "id": "exp-kkn",
+      "role": "Divisi Perlengkapan",
+      "organization": "Kuliah Kerja Nyata (KKN)",
+      "period": "Agustus 2025 – September 2025",
+      "track": "general",
+      "contribution": "team",
+      "responsibilities": [
+        "Mendata kebutuhan perlengkapan kegiatan.",
+        "Membantu pengadaan dan pemeriksaan barang.",
+        "Mengoordinasikan pendistribusian perlengkapan.",
+        "Memastikan perlengkapan tersedia untuk pelaksanaan kegiatan."
+      ],
+      "competencies": [],
+      "technologies": []
+    },
+    {
+      "id": "exp-hokben",
+      "role": "Part-Time Crew Store",
+      "organization": "HOKBEN",
+      "period": "Desember 2023 – Juni 2024",
+      "track": "general",
+      "contribution": "unspecified",
+      "responsibilities": [
+        "Memeriksa barang diterima berdasarkan rincian pengiriman; mencatat pengambilan stok dari gudang (stok kering dan chiller).",
+        "Melaporkan aktivitas stok dan operasional shift kepada Head Shift atau Supervisor.",
+        "Memeriksa kelengkapan dan mengemas pesanan; mengoperasikan sistem kasir (POS); membantu pelayanan pelanggan dan proses memasak sesuai kebutuhan operasional."
+      ],
+      "competencies": [
+        "Pemeriksaan dan pencatatan stok",
+        "Ketelitian",
+        "Penggunaan POS",
+        "Pelayanan pelanggan",
+        "Kerja sama tim",
+        "Pelaksanaan prosedur operasional"
+      ],
+      "technologies": []
+    },
+    {
+      "id": "exp-data-cleaning",
+      "role": "Data Cleaning dan Pengolahan Data Penelitian",
+      "organization": "",
+      "period": "",
+      "track": "it",
+      "contribution": "unspecified",
+      "responsibilities": [
+        "Memeriksa data kosong, mengidentifikasi dan menghapus data duplikat, menyeragamkan format, menyusun rekap, dan memeriksa konsistensi data.",
+        "Skala pekerjaan: sekitar 800 catatan data."
+      ],
+      "competencies": [],
+      "technologies": []
+    },
+    {
+      "id": "exp-gerai-air",
+      "role": "Cashier & Shift Leader",
+      "organization": "Gerai Air Minum Biru",
+      "period": "Maret 2022 – April 2023",
+      "track": "general",
+      "contribution": "team",
+      "responsibilities": [
+        "Mencatat pendapatan dan pengeluaran selama shift; memeriksa stok fisik dan mencocokkannya dengan catatan persediaan.",
+        "Memastikan serah terima antarshift berjalan baik.",
+        "Mengoordinasikan operasional satu kasir dan dua staf pengisi ulang air.",
+        "Memantau persediaan dan kebutuhan operasional; menyampaikan keluhan pelanggan dan masalah operasional kepada pemilik usaha."
+      ],
+      "competencies": [],
+      "technologies": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-daily-report",
+      "title": "Aplikasi Web Pelaporan Harian",
+      "description": "Aplikasi web untuk pencatatan laporan harian dari berbagai departemen di perusahaan percetakan. Dilengkapi fitur input laporan harian, tampilan rekap laporan bulanan, serta fungsi Update dan Delete untuk pengguna dengan peran admin. Berdasarkan informasi terakhir yang diberikan, aplikasi masih digunakan oleh perusahaan.",
+      "contribution": "team",
+      "teamNote": "Bersama dua anggota tim.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "PostgreSQL",
+        "Supabase"
+      ],
+      "links": {
+        "demo": "",
+        "repo": ""
+      }
+    },
+    {
+      "id": "proj-hiplan",
+      "title": "HiPlan",
+      "description": "Aplikasi untuk menjelajahi gunung-gunung di Indonesia. Proyek capstone tim pada program Coding Camp powered by DBS Foundation 2025.",
+      "contribution": "team",
+      "teamNote": "Proyek capstone tim.",
+      "technologies": [],
+      "links": {
+        "demo": "",
+        "repo": "https://github.com/HarHamz/HiPlan"
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach-coding-camp",
+      "title": "Peserta Terpilih Coding Camp powered by DBS Foundation 2025",
+      "evidence": "Terpilih dari sekitar 3.000 peserta dari lebih dari 60.000 pendaftar.",
+      "source": "Seleksi Coding Camp 2025"
+    },
+    {
+      "id": "ach-gpa",
+      "title": "IPK 3,79 / 4,00",
+      "evidence": "Indeks Prestasi Kumulatif pada program S1 Teknik Informatika, Universitas Islam Syekh-Yusuf Tangerang.",
+      "source": "Universitas Islam Syekh-Yusuf Tangerang"
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-s1",
+      "institution": "Universitas Islam Syekh-Yusuf Tangerang",
+      "program": "S1 Teknik Informatika",
+      "period": "Agustus 2022 – Agustus 2026",
+      "gpa": "3,79 / 4,00",
+      "notes": "Landasan pengetahuan: pengembangan perangkat lunak, perancangan sistem informasi, basis data, dan pengolahan data."
+    },
+    {
+      "id": "edu-smk",
+      "institution": "SMK Persada",
+      "program": "Teknik Komputer dan Jaringan",
+      "period": "2018 – 2021",
+      "gpa": "",
+      "notes": "Pendidikan vokasi di bidang Teknik Komputer dan Jaringan."
+    }
+  ],
+  "training": [
+    {
+      "id": "train-coding-camp",
+      "name": "Coding Camp powered by DBS Foundation 2025",
+      "program": "Full-Stack Developer & Self Development",
+      "period": "Februari – Juni 2025",
+      "details": [
+        "Pelatihan intensif sekitar 900 jam: pembelajaran mandiri, sesi bersama praktisi industri, dan bimbingan mentor profesional.",
+        "Materi teknis: HTML, CSS, JavaScript, Node.js, RESTful API.",
+        "Materi pengembangan diri: pemecahan masalah, komunikasi, presentasi, adaptabilitas, kerja sama tim."
+      ]
+    }
+  ],
+  "contact": {
+    "email": "gilangrisqi3@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/gilang-risqi/",
+    "github": "https://github.com/GilangRisqi",
+    "cv": "/cv/Gilang_Risqi_Pratama_CV_General_Maganghub_ID.pdf"
+  },
+  "ui": {
+    "nav": {
+      "navLabel": "Navigasi utama",
+      "about": "Tentang",
+      "skills": "Keahlian",
+      "experience": "Pengalaman",
+      "projects": "Proyek",
+      "achievements": "Pencapaian",
+      "training": "Pelatihan",
+      "education": "Pendidikan",
+      "contact": "Kontak"
+    },
+    "labels": {
+      "sectionTitles": {
+        "about": "Tentang",
+        "skills": "Keahlian",
+        "experience": "Pengalaman",
+        "projects": "Proyek",
+        "achievements": "Pencapaian",
+        "training": "Pelatihan",
+        "education": "Pendidikan",
+        "contact": "Kontak"
+      },
+      "hero": {
+        "ctaExperience": "Lihat Pengalaman",
+        "ctaContact": "Hubungi Saya"
+      },
+      "trackLabels": {
+        "it": "IT",
+        "general": "Operasional & Layanan"
+      },
+      "contributionLabels": {
+        "individual": "Individu",
+        "team": "Tim",
+        "unspecified": "Tidak dirinci"
+      },
+      "skillsGroups": {
+        "technical": "Teknis",
+        "operational": "Operasional & Interpersonal"
+      },
+      "experience": {
+        "technologies": "Teknologi",
+        "competencies": "Kompetensi"
+      },
+      "projects": {
+        "teamNote": "Catatan tim",
+        "viewRepo": "Lihat Repositori",
+        "viewDemo": "Lihat Demo"
+      },
+      "contact": {
+        "intro": "Silakan hubungi saya melalui salah satu saluran berikut.",
+        "downloadCV": "Unduh CV",
+        "email": "Email",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+      }
+    }
+  }
+}
