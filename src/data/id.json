@@ -2,7 +2,8 @@
   "profile": {
     "name": "Gilang Risqi Pratama",
     "headline": "Web Developer · Operasional & Layanan Pelanggan",
-    "summary": "Lulusan Sarjana Teknik Informatika dari Universitas Islam Syekh-Yusuf dengan pengalaman dalam pengembangan aplikasi web, pengolahan data, administrasi, serta operasional kerja. Memiliki kemampuan dalam pengembangan perangkat lunak, pengelolaan basis data, pencatatan dan pemeriksaan data, serta penyusunan laporan operasional. Terbiasa bekerja secara teliti, mengikuti prosedur, berkomunikasi, dan berkolaborasi dalam tim. Memiliki motivasi untuk terus belajar, berkembang, dan memberikan kontribusi nyata dalam lingkungan kerja yang profesional."
+    "summary": "Lulusan Sarjana Teknik Informatika dari Universitas Islam Syekh-Yusuf dengan pengalaman dalam pengembangan aplikasi web, pengolahan data, administrasi, serta operasional kerja. Memiliki kemampuan dalam pengembangan perangkat lunak, pengelolaan basis data, pencatatan dan pemeriksaan data, serta penyusunan laporan operasional. Terbiasa bekerja secara teliti, mengikuti prosedur, berkomunikasi, dan berkolaborasi dalam tim. Memiliki motivasi untuk terus belajar, berkembang, dan memberikan kontribusi nyata dalam lingkungan kerja yang profesional.",
+    "avatar": "/images/GilangRisqiPratama.png"
   },
   "skills": {
     "technical": [
@@ -13,6 +14,7 @@
       "PostgreSQL",
       "Supabase",
       "RESTful API",
+      "Microsoft Office",
       "Pembersihan & Pengolahan Data"
     ],
     "operational": [
@@ -54,7 +56,7 @@
     {
       "id": "exp-kkn",
       "role": "Divisi Perlengkapan",
-      "organization": "Kuliah Kerja Nyata (KKN)",
+      "organization": "Kuliah Kerja Kemasyarakatan (KKK)",
       "period": "Agustus 2025 – September 2025",
       "track": "general",
       "contribution": "team",
@@ -73,7 +75,7 @@
       "organization": "HOKBEN",
       "period": "Desember 2023 – Juni 2024",
       "track": "general",
-      "contribution": "unspecified",
+      "contribution": "team",
       "responsibilities": [
         "Memeriksa barang diterima berdasarkan rincian pengiriman; mencatat pengambilan stok dari gudang (stok kering dan chiller).",
         "Melaporkan aktivitas stok dan operasional shift kepada Head Shift atau Supervisor.",
@@ -90,20 +92,6 @@
       "technologies": []
     },
     {
-      "id": "exp-data-cleaning",
-      "role": "Data Cleaning dan Pengolahan Data Penelitian",
-      "organization": "",
-      "period": "",
-      "track": "it",
-      "contribution": "unspecified",
-      "responsibilities": [
-        "Memeriksa data kosong, mengidentifikasi dan menghapus data duplikat, menyeragamkan format, menyusun rekap, dan memeriksa konsistensi data.",
-        "Skala pekerjaan: sekitar 800 catatan data."
-      ],
-      "competencies": [],
-      "technologies": []
-    },
-    {
       "id": "exp-gerai-air",
       "role": "Cashier & Shift Leader",
       "organization": "Gerai Air Minum Biru",
@@ -116,7 +104,13 @@
         "Mengoordinasikan operasional satu kasir dan dua staf pengisi ulang air.",
         "Memantau persediaan dan kebutuhan operasional; menyampaikan keluhan pelanggan dan masalah operasional kepada pemilik usaha."
       ],
-      "competencies": [],
+      "competencies": [
+        "Kerja sama tim",
+        "Ketelitian",
+        "Pelaksanaan prosedur operasional",
+        "Pelayanan pelanggan",
+        "Pemeriksaan dan pencatatan stok"
+      ],
       "technologies": []
     }
   ],
@@ -143,10 +137,19 @@
     {
       "id": "proj-hiplan",
       "title": "HiPlan",
-      "description": "Aplikasi untuk menjelajahi gunung-gunung di Indonesia. Proyek capstone tim pada program Coding Camp powered by DBS Foundation 2025.",
+      "description": "HiPlan adalah platform pendakian cerdas yang membantu pengguna menjelajahi gunung-gunung di Indonesia melalui informasi cuaca terkini, prediksi tingkat kesulitan jalur, estimasi waktu pendakian, serta rekomendasi gunung berdasarkan preferensi pengguna. Didukung teknologi Machine Learning, HiPlan menyatukan kebutuhan perencanaan pendakian dalam satu platform yang intuitif untuk membantu pendaki mempersiapkan perjalanan dengan lebih matang dan percaya diri.",
       "contribution": "team",
       "teamNote": "Proyek capstone tim.",
-      "technologies": [],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "PostgreSQL",
+        "Scikit-learn",
+        "Python",
+        "TensorFlow"
+      ],
       "links": {
         "demo": "",
         "repo": "https://github.com/HarHamz/HiPlan"
@@ -207,7 +210,6 @@
   "ui": {
     "nav": {
       "navLabel": "Navigasi utama",
-      "about": "Tentang",
       "skills": "Keahlian",
       "experience": "Pengalaman",
       "projects": "Proyek",
@@ -218,7 +220,6 @@
     },
     "labels": {
       "sectionTitles": {
-        "about": "Tentang",
         "skills": "Keahlian",
         "experience": "Pengalaman",
         "projects": "Proyek",

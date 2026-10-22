@@ -5,10 +5,14 @@ export function renderHero(data) {
   const { profile } = data;
   const { hero: heroLabels } = data.ui.labels;
 
+  const avatarMarkup = profile.avatar
+    ? `<img src="${escText(profile.avatar)}" alt="${escText(profile.name)}" class="hero__avatar-img" width="120" height="120" loading="eager" />`
+    : `<span class="hero__avatar-initials">${escText(getInitials(profile.name))}</span>`;
+
   el.innerHTML = `
     <div class="container hero__container">
-      <div class="hero__avatar" aria-hidden="true">
-        <span class="hero__avatar-initials">GR</span>
+      <div class="hero__avatar"${profile.avatar ? '' : ' aria-hidden="true"'}>
+        ${avatarMarkup}
       </div>
       <div class="hero__body">
         <h1 class="hero__name">${escText(profile.name)}</h1>
@@ -30,4 +34,11 @@ function escText(str) {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
+}
+
+function getInitials(name) {
+  if (!name) return 'GR';
+  const parts = name.trim().split(/\s+/);
+  if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+  return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
 }

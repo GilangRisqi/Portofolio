@@ -6,7 +6,6 @@ import { initI18n, toggleLang, onLangChange } from './i18n.js';
 import { initRouter, setRouterLang } from './router.js';
 import { renderNavbar, updateNavbarLabels } from './components/navbar.js';
 import { renderHero } from './components/hero.js';
-import { renderAbout } from './components/about.js';
 import { renderSkills } from './components/skills.js';
 import { renderExperience } from './components/experience.js';
 import { renderProjects } from './components/projects.js';
@@ -22,7 +21,6 @@ import {
 
 function renderAllSections(data) {
   renderHero(data);
-  renderAbout(data);
   renderSkills(data);
   renderExperience(data);
   renderProjects(data);

@@ -2,7 +2,6 @@ import { animateContentTransition } from './animations.js';
 
 const SECTION_TITLES = {
   hero:         { id: 'Gilang Risqi Pratama',     en: 'Gilang Risqi Pratama' },
-  about:        { id: 'Tentang · Gilang Risqi Pratama',   en: 'About · Gilang Risqi Pratama' },
   skills:       { id: 'Keahlian · Gilang Risqi Pratama',  en: 'Skills · Gilang Risqi Pratama' },
   experience:   { id: 'Pengalaman · Gilang Risqi Pratama', en: 'Experience · Gilang Risqi Pratama' },
   projects:     { id: 'Proyek · Gilang Risqi Pratama',    en: 'Projects · Gilang Risqi Pratama' },

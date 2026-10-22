@@ -2,7 +2,8 @@
   "profile": {
     "name": "Gilang Risqi Pratama",
     "headline": "Web Developer · Operations & Customer Service",
-    "summary": "Computer Science undergraduate at Universitas Islam Syekh-Yusuf Tangerang with experience in web application development and in operations and customer service."
+    "summary": "A Bachelor's degree graduate in Informatics Engineering from Universitas Islam Syekh-Yusuf, with experience in web application development, data processing, administration, and operational support. Skilled in software development, database management, data recording and verification, and operational reporting. Accustomed to working with attention to detail, following procedures, communicating effectively, and collaborating within a team. Highly motivated to continuously learn, grow, and make meaningful contributions in a professional work environment.",
+    "avatar": "/images/GilangRisqiPratama.png"
   },
   "skills": {
     "technical": [
@@ -13,6 +14,7 @@
       "PostgreSQL",
       "Supabase",
       "RESTful API",
+      "Microsoft Office",
       "Data Cleaning & Processing"
     ],
     "operational": [
@@ -54,7 +56,7 @@
     {
       "id": "exp-kkn",
       "role": "Equipment Division",
-      "organization": "Community Service Program (KKN)",
+      "organization": "Community Service Program (KKK)",
       "period": "August 2025 – September 2025",
       "track": "general",
       "contribution": "team",
@@ -73,7 +75,7 @@
       "organization": "HOKBEN",
       "period": "December 2023 – June 2024",
       "track": "general",
-      "contribution": "unspecified",
+      "contribution": "team",
       "responsibilities": [
         "Checked received goods against delivery details; recorded stock withdrawals from the warehouse (dry goods and chiller stock).",
         "Reported stock and operational activities per shift to the Head Shift or Supervisor.",
@@ -90,20 +92,6 @@
       "technologies": []
     },
     {
-      "id": "exp-data-cleaning",
-      "role": "Data Cleaning and Research Data Processing",
-      "organization": "",
-      "period": "",
-      "track": "it",
-      "contribution": "unspecified",
-      "responsibilities": [
-        "Checked for missing data, identified and removed duplicates, standardised formats, compiled summaries, and verified data consistency.",
-        "Scope: data cleaning on approximately 800 data records."
-      ],
-      "competencies": [],
-      "technologies": []
-    },
-    {
       "id": "exp-gerai-air",
       "role": "Cashier & Shift Leader",
       "organization": "Gerai Air Minum Biru",
@@ -116,7 +104,13 @@
         "Coordinated operations across one cashier and two water-refill staff members.",
         "Monitored stock levels and operational needs; escalated customer complaints and operational issues to the business owner."
       ],
-      "competencies": [],
+      "competencies": [
+        "Teamwork",
+        "Attention to detail",
+        "Operational procedure compliance",
+        "Customer service",
+        "Stock checking and record-keeping"
+      ],
       "technologies": []
     }
   ],
@@ -143,10 +137,19 @@
     {
       "id": "proj-hiplan",
       "title": "HiPlan",
-      "description": "An application for exploring mountains in Indonesia. A team capstone project from the Coding Camp powered by DBS Foundation 2025 program.",
+      "description": "HiPlan is a smart hiking platform that helps users explore Indonesia’s mountains through real-time weather updates, hiking difficulty predictions, estimated trek durations, and personalized mountain recommendations. Powered by Machine Learning, HiPlan brings essential hiking information together in one intuitive platform, helping hikers plan their adventures with greater confidence and preparation.",
       "contribution": "team",
       "teamNote": "Team capstone project.",
-      "technologies": [],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "PostgreSQL",
+        "Scikit-learn",
+        "Python",
+        "TensorFlow"
+      ],
       "links": {
         "demo": "",
         "repo": "https://github.com/HarHamz/HiPlan"
@@ -207,7 +210,6 @@
   "ui": {
     "nav": {
       "navLabel": "Main navigation",
-      "about": "About",
       "skills": "Skills",
       "experience": "Experience",
       "projects": "Projects",
@@ -218,7 +220,6 @@
     },
     "labels": {
       "sectionTitles": {
-        "about": "About",
         "skills": "Skills",
         "experience": "Experience",
         "projects": "Projects",

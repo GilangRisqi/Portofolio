@@ -43,7 +43,7 @@ export function initScrollReveal() {
   }
 
   const revealTargets = document.querySelectorAll(
-    '.section-title, .about__text, .skills__group, .exp-card, .proj-card, .achieve-card, .train-card, .edu-card, .contact__card'
+    '.section-title, .skills__group, .exp-card, .proj-card, .achieve-card, .train-card, .edu-card, .contact__card'
   );
 
   if (prefersReducedMotion()) {

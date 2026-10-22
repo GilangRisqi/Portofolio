@@ -135,7 +135,6 @@ button {
 
   /* Ensure JS-initiated opacity:0 never leaves content invisible */
   .section-title,
-  .about__text,
   .skills__group,
   .exp-card,
   .proj-card,
