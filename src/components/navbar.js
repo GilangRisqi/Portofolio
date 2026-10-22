@@ -10,7 +10,37 @@ const NAV_SECTIONS = [
 
 let scrollAbortController = null;
 
-export function renderNavbar(labels, currentLang, onLangToggle) {
+function getThemeIcon(theme) {
+  if (theme === 'dark') {
+    return `
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="4"></circle>
+        <path d="M12 2v2"></path>
+        <path d="M12 20v2"></path>
+        <path d="m4.93 4.93 1.41 1.41"></path>
+        <path d="m17.66 17.66 1.41 1.41"></path>
+        <path d="M2 12h2"></path>
+        <path d="M20 12h2"></path>
+        <path d="m6.34 17.66-1.41 1.41"></path>
+        <path d="m19.07 4.93-1.41 1.41"></path>
+      </svg>
+    `;
+  }
+  return `
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+    </svg>
+  `;
+}
+
+function getThemeAriaLabel(theme, lang) {
+  if (lang === 'en') {
+    return theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+  }
+  return theme === 'dark' ? 'Ganti ke mode terang' : 'Ganti ke mode gelap';
+}
+
+export function renderNavbar(labels, currentLang, onLangToggle, onThemeToggle, currentTheme = 'dark') {
   const root = document.getElementById('navbar-root');
   if (!root) return;
 
@@ -35,6 +65,13 @@ export function renderNavbar(labels, currentLang, onLangToggle) {
         </ul>
 
         <div class="navbar__controls">
+          <button
+            class="theme-toggle"
+            id="theme-toggle-btn"
+            aria-label="${getThemeAriaLabel(currentTheme, currentLang)}"
+            type="button"
+          >${getThemeIcon(currentTheme)}</button>
+
           <button
             class="lang-toggle"
             id="lang-toggle-btn"
@@ -82,10 +119,10 @@ export function renderNavbar(labels, currentLang, onLangToggle) {
     </nav>
   `;
 
-  wireNavbar(onLangToggle);
+  wireNavbar(onLangToggle, onThemeToggle);
 }
 
-export function updateNavbarLabels(labels, currentLang) {
+export function updateNavbarLabels(labels, currentLang, currentTheme = 'dark') {
   const nextLang = currentLang === 'id' ? 'EN' : 'ID';
 
   document.querySelectorAll('.navbar__link[data-section]').forEach((link) => {
@@ -99,17 +136,30 @@ export function updateNavbarLabels(labels, currentLang) {
     langBtn.setAttribute('aria-label', `Ganti bahasa ke ${nextLang}`);
   }
 
+  const themeBtn = document.getElementById('theme-toggle-btn');
+  if (themeBtn) {
+    themeBtn.setAttribute('aria-label', getThemeAriaLabel(currentTheme, currentLang));
+  }
+
   const drawer = document.getElementById('mobile-drawer');
   if (drawer && labels.navLabel) {
     drawer.setAttribute('aria-label', labels.navLabel);
   }
 }
 
-function wireNavbar(onLangToggle) {
+export function updateNavbarTheme(theme, lang) {
+  const themeBtn = document.getElementById('theme-toggle-btn');
+  if (!themeBtn) return;
+  themeBtn.innerHTML = getThemeIcon(theme);
+  themeBtn.setAttribute('aria-label', getThemeAriaLabel(theme, lang));
+}
+
+function wireNavbar(onLangToggle, onThemeToggle) {
   const navbar = document.getElementById('main-navbar');
   const menuBtn = document.getElementById('mobile-menu-btn');
   const drawer = document.getElementById('mobile-drawer');
   const langBtn = document.getElementById('lang-toggle-btn');
+  const themeBtn = document.getElementById('theme-toggle-btn');
 
   if (scrollAbortController) scrollAbortController.abort();
   scrollAbortController = new AbortController();
@@ -162,4 +212,10 @@ function wireNavbar(onLangToggle) {
   langBtn.addEventListener('click', () => {
     if (typeof onLangToggle === 'function') onLangToggle();
   });
+
+  if (themeBtn) {
+    themeBtn.addEventListener('click', () => {
+      if (typeof onThemeToggle === 'function') onThemeToggle();
+    });
+  }
 }

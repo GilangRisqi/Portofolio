@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('portfolio-theme');
+          var theme = (saved === 'dark' || saved === 'light')
+            ? saved
+            : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {}
+      })();
+    </script>
+
     <title>Gilang Risqi Pratama · Web Developer &amp; Operasional</title>
     <meta name="description" content="Portofolio pribadi Gilang Risqi Pratama, mahasiswa S1 Teknik Informatika dengan pengalaman pengembangan web dan pengalaman operasional serta layanan pelanggan." />
     <meta name="author" content="Gilang Risqi Pratama" />

@@ -4,7 +4,8 @@ import './styles/components.css';
 
 import { initI18n, toggleLang, onLangChange } from './i18n.js';
 import { initRouter, setRouterLang } from './router.js';
-import { renderNavbar, updateNavbarLabels } from './components/navbar.js';
+import { initTheme, toggleTheme, getPreferredTheme } from './theme.js';
+import { renderNavbar, updateNavbarLabels, updateNavbarTheme } from './components/navbar.js';
 import { renderHero } from './components/hero.js';
 import { renderSkills } from './components/skills.js';
 import { renderExperience } from './components/experience.js';
@@ -18,6 +19,9 @@ import {
   initScrollReveal,
   crossfadeLanguage
 } from './animations.js';
+
+let currentTheme = getPreferredTheme();
+let currentLangState = 'id';
 
 function renderAllSections(data) {
   renderHero(data);
@@ -36,16 +40,28 @@ function handleLangToggle() {
   });
 }
 
+function handleThemeToggle() {
+  currentTheme = toggleTheme();
+  updateNavbarTheme(currentTheme, currentLangState);
+}
+
 function onDataChanged(data, lang) {
-  updateNavbarLabels(data.ui.nav, lang);
+  currentLangState = lang;
+  updateNavbarLabels(data.ui.nav, lang, currentTheme);
   renderAllSections(data);
   setRouterLang(lang);
 }
 
 function init() {
   const { data, lang } = initI18n();
+  currentLangState = lang;
 
-  renderNavbar(data.ui.nav, lang, handleLangToggle);
+  currentTheme = initTheme((newTheme) => {
+    currentTheme = newTheme;
+    updateNavbarTheme(currentTheme, currentLangState);
+  });
+
+  renderNavbar(data.ui.nav, lang, handleLangToggle, handleThemeToggle, currentTheme);
   renderAllSections(data);
 
   onLangChange(onDataChanged);

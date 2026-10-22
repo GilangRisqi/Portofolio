@@ -105,6 +105,33 @@
   background-color: var(--clr-surface-2);
 }
 
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  color: var(--clr-text-sub);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  cursor: pointer;
+  transition:
+    color var(--dur-fast) var(--ease-out),
+    border-color var(--dur-fast) var(--ease-out),
+    background-color var(--dur-fast) var(--ease-out);
+}
+
+.theme-toggle:hover {
+  color: var(--clr-text);
+  border-color: var(--clr-text-sub);
+  background-color: var(--clr-surface-2);
+}
+
+.theme-toggle svg {
+  display: block;
+}
+
 .navbar__menu-btn {
   display: flex;
   align-items: center;
@@ -362,8 +389,6 @@ body {
 .hero__summary {
   font-size: var(--text-base);
   color: var(--clr-text-sub);
-  line-height: var(--leading-normal);
-  max-width: 52ch;
   margin-bottom: var(--sp-6);
 }
 
@@ -791,17 +816,32 @@ body {
 /* Dark-mode contrast overrides
    P1 fix 1: btn--primary background → #0d7a6c = 4.8:1 with #ffffff
    P1 fix 3: tag--tech text → --clr-accent (#2db09e) = 5.4:1 on --clr-accent-bg (#0e2724)
+/* Dark-mode contrast overrides
+   P1 fix 1: btn--primary background → #0d7a6c = 4.8:1 with #ffffff
+   P1 fix 3: tag--tech text → --clr-accent (#2db09e) = 5.4:1 on --clr-accent-bg (#0e2724)
    These values are dark-mode-only; light-mode tokens are unchanged. */
+:root[data-theme="dark"] .btn--primary {
+  background-color: #0d7a6c;
+}
+
+:root[data-theme="dark"] .btn--primary:hover {
+  background-color: #0a6259;
+}
+
+:root[data-theme="dark"] .tag--tech {
+  color: var(--clr-accent);
+}
+
 @media (prefers-color-scheme: dark) {
-  .btn--primary {
+  :root:not([data-theme="light"]) .btn--primary {
     background-color: #0d7a6c;
   }
 
-  .btn--primary:hover {
+  :root:not([data-theme="light"]) .btn--primary:hover {
     background-color: #0a6259;
   }
 
-  .tag--tech {
+  :root:not([data-theme="light"]) .tag--tech {
     color: var(--clr-accent);
   }
 }
