@@ -34,10 +34,10 @@
       "track": "it",
       "contribution": "team",
       "responsibilities": [
-        "Terlibat dalam pengembangan aplikasi web untuk pencatatan laporan harian dari berbagai departemen di perusahaan percetakan.",
-        "Mengerjakan fitur input laporan harian dan tampilan rekap laporan bulanan.",
-        "Mengimplementasikan fungsi Update dan Delete untuk pengguna dengan peran admin.",
-        "Berkolaborasi dengan dua anggota tim."
+        "Berkolaborasi dengan dua anggota tim untuk mengembangkan aplikasi web yang mendukung pencatatan laporan harian dari berbagai subbagian di perusahaan percetakan.",
+        "Mengerjakan fitur input laporan harian untuk membantu pencatatan aktivitas operasional perusahaan.",
+        "Mengimplementasikan fungsi Update dan Delete yang dapat diakses oleh pengguna dengan peran admin.",
+        "Bekerja dalam tim pengembangan aplikasi untuk memenuhi kebutuhan pelaporan perusahaan."
       ],
       "competencies": [],
       "technologies": [

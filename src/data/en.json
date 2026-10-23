@@ -35,10 +35,10 @@
       "track": "it",
       "contribution": "team",
       "responsibilities": [
-        "Involved in developing a web application for daily report recording across multiple departments at a printing company.",
-        "Worked on the daily report input feature and the monthly report summary view.",
-        "Implemented Update and Delete functions for admin-role users.",
-        "Collaborated with two team members."
+        "Collaborated with two team members to develop a web application supporting daily report recording across several departments at a printing company.",
+        "Developed a daily report input feature to support the recording of operational activities.",
+        "Implemented Update and Delete functionalities accessible to users with the admin role.",
+        "Worked collaboratively within the development team to meet the company's reporting requirements."
       ],
       "competencies": [],
       "technologies": [
