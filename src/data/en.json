@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Gilang Risqi Pratama",
-    "headline": "Web Developer · Store Operations & Customer Service",
+    "headline": "Bachelor's Degree in Informatics Engineering",
     "summary": "A Bachelor's degree graduate in Informatics Engineering from Universitas Islam Syekh-Yusuf, with experience in web application development, data processing, administration, and operational support. Skilled in software development, database management, data recording and verification, and operational reporting. Accustomed to working with attention to detail, following procedures, communicating effectively, and collaborating within a team. Highly motivated to continuously learn, grow, and make meaningful contributions in a professional work environment.",
     "avatar": "/images/GilangRisqiPratama.png"
   },
@@ -18,9 +18,6 @@
       "Data Cleaning & Processing"
     ],
     "operational": [
-      "Stock Checking & Record-Keeping",
-      "POS/Cash Register Operation",
-      "Customer Service",
       "Teamwork",
       "Operational Procedure Compliance",
       "Communication",
@@ -54,23 +51,8 @@
       ]
     },
     {
-      "id": "exp-kkn",
-      "role": "Equipment Division",
-      "organization": "Community Service Program (KKK)",
-      "period": "August 2025 – September 2025",
-      "track": "general",
-      "contribution": "team",
-      "responsibilities": [
-        "Recorded equipment needs for program activities.",
-        "Assisted with procurement and inspection of goods.",
-        "Coordinated the distribution of equipment.",
-        "Ensured equipment availability for program execution."
-      ],
-      "competencies": [],
-      "technologies": []
-    },
-    {
       "id": "exp-hokben",
+      "hidden": true,
       "role": "Part-Time Crew Store",
       "organization": "HOKBEN",
       "period": "December 2023 – June 2024",
@@ -93,6 +75,7 @@
     },
     {
       "id": "exp-gerai-air",
+      "hidden": true,
       "role": "Cashier & Shift Leader",
       "organization": "Gerai Air Minum Biru",
       "period": "March 2022 – April 2023",
@@ -178,14 +161,6 @@
       "period": "August 2022 – August 2026",
       "gpa": "3.79 / 4.00",
       "notes": "Core knowledge areas: software development, information system design, databases, and data processing."
-    },
-    {
-      "id": "edu-smk",
-      "institution": "SMK Persada",
-      "program": "Computer and Network Engineering (Teknik Komputer dan Jaringan)",
-      "period": "2018 – 2021",
-      "gpa": "",
-      "notes": "Vocational education in computer and network engineering."
     }
   ],
   "training": [

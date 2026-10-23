@@ -13,7 +13,7 @@ export function renderExperience(data) {
     <div class="container">
       <h2 class="section-title">${escText(title)}</h2>
       <div class="exp-list">
-        ${experience.map((item) => renderCard(item, trackLabels, contribs, expLabels)).join('')}
+        ${experience.filter((item) => !item.hidden).map((item) => renderCard(item, trackLabels, contribs, expLabels)).join('')}
       </div>
     </div>
   `;

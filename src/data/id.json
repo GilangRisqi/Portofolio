@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Gilang Risqi Pratama",
-    "headline": "Web Developer · Operasional Toko & Layanan Pelanggan",
+    "headline": "S1 Teknik Informatika",
     "summary": "Lulusan Sarjana Teknik Informatika dari Universitas Islam Syekh-Yusuf dengan pengalaman dalam pengembangan aplikasi web, pengolahan data, administrasi, serta operasional kerja. Memiliki kemampuan dalam pengembangan perangkat lunak, pengelolaan basis data, pencatatan dan pemeriksaan data, serta penyusunan laporan operasional. Terbiasa bekerja secara teliti, mengikuti prosedur, berkomunikasi, dan berkolaborasi dalam tim. Memiliki motivasi untuk terus belajar, berkembang, dan memberikan kontribusi nyata dalam lingkungan kerja yang profesional.",
     "avatar": "/images/GilangRisqiPratama.png"
   },
@@ -12,15 +12,11 @@
       "JavaScript",
       "Node.js",
       "PostgreSQL",
-      "Supabase",
       "RESTful API",
       "Microsoft Office",
       "Pembersihan & Pengolahan Data"
     ],
     "operational": [
-      "Pemeriksaan & Pencatatan Stok",
-      "Penggunaan Sistem POS/Kasir",
-      "Pelayanan Pelanggan",
       "Kerja Sama Tim",
       "Pelaksanaan Prosedur Operasional",
       "Komunikasi",
@@ -54,23 +50,8 @@
       ]
     },
     {
-      "id": "exp-kkn",
-      "role": "Divisi Perlengkapan",
-      "organization": "Kuliah Kerja Kemasyarakatan (KKK)",
-      "period": "Agustus 2025 – September 2025",
-      "track": "general",
-      "contribution": "team",
-      "responsibilities": [
-        "Mendata kebutuhan perlengkapan kegiatan.",
-        "Membantu pengadaan dan pemeriksaan barang.",
-        "Mengoordinasikan pendistribusian perlengkapan.",
-        "Memastikan perlengkapan tersedia untuk pelaksanaan kegiatan."
-      ],
-      "competencies": [],
-      "technologies": []
-    },
-    {
       "id": "exp-hokben",
+      "hidden": true,
       "role": "Part-Time Crew Store",
       "organization": "HOKBEN",
       "period": "Desember 2023 – Juni 2024",
@@ -93,6 +74,7 @@
     },
     {
       "id": "exp-gerai-air",
+      "hidden": true,
       "role": "Cashier & Shift Leader",
       "organization": "Gerai Air Minum Biru",
       "period": "Maret 2022 – April 2023",
@@ -178,14 +160,6 @@
       "period": "Agustus 2022 – Agustus 2026",
       "gpa": "3,79 / 4,00",
       "notes": "Landasan pengetahuan: pengembangan perangkat lunak, perancangan sistem informasi, basis data, dan pengolahan data."
-    },
-    {
-      "id": "edu-smk",
-      "institution": "SMK Persada",
-      "program": "Teknik Komputer dan Jaringan",
-      "period": "2018 – 2021",
-      "gpa": "",
-      "notes": "Pendidikan vokasi di bidang Teknik Komputer dan Jaringan."
     }
   ],
   "training": [
