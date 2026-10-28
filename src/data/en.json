@@ -180,7 +180,7 @@
     "email": "gilangrisqi3@gmail.com",
     "linkedin": "https://www.linkedin.com/in/gilang-risqi/",
     "github": "https://github.com/GilangRisqi",
-    "cv": "/cv/Gilang_Risqi_Pratama_CV_General_Maganghub_ID.pdf"
+    "cv": "/cv/Gilang_Risqi_Pratama_CV_IT_Maganghub_ID.pdf"
   },
   "ui": {
     "nav": {
@@ -231,7 +231,7 @@
       },
       "contact": {
         "intro": "Feel free to reach out through any of the channels below.",
-        "downloadCV": "Download CV",
+        "downloadCV": "Preview CV",
         "email": "Email",
         "linkedin": "LinkedIn",
         "github": "GitHub"

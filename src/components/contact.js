@@ -13,7 +13,6 @@ export function renderContact(data) {
          class="btn btn--primary"
          target="_blank"
          rel="noopener noreferrer"
-         download
        >
          ${escText(contactLabels.downloadCV)}
        </a>`
