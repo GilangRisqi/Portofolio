@@ -13,6 +13,7 @@ import { renderProjects } from './components/projects.js';
 import { renderAchievements } from './components/achievements.js';
 import { renderTraining } from './components/training.js';
 import { renderEducation } from './components/education.js';
+import { renderCertifications } from './components/certifications.js';
 import { renderContact } from './components/contact.js';
 import {
   animateHero,
@@ -31,6 +32,7 @@ function renderAllSections(data) {
   renderAchievements(data);
   renderTraining(data);
   renderEducation(data);
+  renderCertifications(data);
   renderContact(data);
 }
 

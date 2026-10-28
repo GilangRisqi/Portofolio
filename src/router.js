@@ -8,6 +8,7 @@ const SECTION_TITLES = {
   achievements: { id: 'Pencapaian · Gilang Risqi Pratama', en: 'Achievements · Gilang Risqi Pratama' },
   training:     { id: 'Pelatihan · Gilang Risqi Pratama', en: 'Training · Gilang Risqi Pratama' },
   education:    { id: 'Pendidikan · Gilang Risqi Pratama', en: 'Education · Gilang Risqi Pratama' },
+  certifications: { id: 'Sertifikasi · Gilang Risqi Pratama', en: 'Certifications · Gilang Risqi Pratama' },
   contact:      { id: 'Kontak · Gilang Risqi Pratama',    en: 'Contact · Gilang Risqi Pratama' },
 };
 

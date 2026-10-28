@@ -5,6 +5,7 @@ const NAV_SECTIONS = [
   'achievements',
   'training',
   'education',
+  'certifications',
   'contact',
 ];
 

@@ -176,6 +176,92 @@
       ]
     }
   ],
+  "certifications": [
+    {
+      "id": "cert-codingcamp-2025",
+      "name": "Certificate of Completion Codingcamp 2025 by DBS Foundation",
+      "issuer": "Dicoding",
+      "issueDate": "2025-07",
+      "expiryDate": "",
+      "credentialId": "",
+      "verifyUrl": "",
+      "image": "certificateofcompletioncodingcamp-2025.webp",
+      "imageAlt": "Certificate of completion for Certificate of Completion Codingcamp 2025 by DBS Foundation from Dicoding",
+      "pdf": "certificateofcompletioncodingcamp-2025.pdf"
+    },
+    {
+      "id": "cert-english-2025",
+      "name": "English for Business Communication",
+      "issuer": "Dicoding",
+      "issueDate": "2025-06",
+      "expiryDate": "",
+      "credentialId": "",
+      "verifyUrl": "",
+      "image": "englishforbusinesscommunication-2025.webp",
+      "imageAlt": "Certificate of completion for English for Business Communication from Dicoding",
+      "pdf": "englishforbusinesscommunication-2025.pdf"
+    },
+    {
+      "id": "cert-web-intermediate-2025",
+      "name": "Belajar Pengembangan Web Intermediate Dicoding",
+      "issuer": "Dicoding",
+      "issueDate": "2025-05",
+      "expiryDate": "2028-05",
+      "credentialId": "",
+      "verifyUrl": "https://dicoding.com/certificates/1OP8JQ1MLPQK",
+      "image": "belajarpengembanganwebintermediate-2025.webp",
+      "imageAlt": "Certificate of completion for Belajar Pengembangan Web Intermediate Dicoding from Dicoding",
+      "pdf": "belajarpengembanganwebintermediate-2025.pdf"
+    },
+    {
+      "id": "cert-fe-fundamental-2025",
+      "name": "Belajar Fundamental Front-End Web Development",
+      "issuer": "Dicoding",
+      "issueDate": "2025-04",
+      "expiryDate": "2028-04",
+      "credentialId": "",
+      "verifyUrl": "https://dicoding.com/certificates/2VX3K9Q6JXYQ",
+      "image": "belajarfundamentalfrontendwebdevelopment-2025.webp",
+      "imageAlt": "Certificate of completion for Belajar Fundamental Front-End Web Development from Dicoding",
+      "pdf": "belajarfundamentalfrontendwebdevelopment-2025.pdf"
+    },
+    {
+      "id": "cert-fe-pemula-2025",
+      "name": "Belajar Membuat Front-End Web untuk Pemula",
+      "issuer": "Dicoding",
+      "issueDate": "2025-03",
+      "expiryDate": "2028-03",
+      "credentialId": "",
+      "verifyUrl": "https://dicoding.com/certificates/07Z63D3EWZQR",
+      "image": "belajarmembuatfrontendwebuntukpemula-2025.webp",
+      "imageAlt": "Certificate of completion for Belajar Membuat Front-End Web untuk Pemula from Dicoding",
+      "pdf": "belajarmembuatfrontendwebuntukpemula-2025.pdf"
+    },
+    {
+      "id": "cert-js-dasar-2025",
+      "name": "Belajar Dasar Pemrograman JavaScript",
+      "issuer": "Dicoding",
+      "issueDate": "2025-03",
+      "expiryDate": "2028-03",
+      "credentialId": "",
+      "verifyUrl": "https://dicoding.com/certificates/QLZ93N8K9Z5D",
+      "image": "belajardasarpemrogramanjavascript-2025.webp",
+      "imageAlt": "Certificate of completion for Belajar Dasar Pemrograman JavaScript from Dicoding",
+      "pdf": "belajardasapemrogramanjavascript-2025.pdf"
+    },
+    {
+      "id": "cert-web-dasar-2025",
+      "name": "Belajar Dasar Pemrograman Web",
+      "issuer": "Dicoding",
+      "issueDate": "2025-02",
+      "expiryDate": "2028-02",
+      "credentialId": "",
+      "verifyUrl": "https://dicoding.com/certificates/GRX534WKKZ0M",
+      "image": "belajardasarpemrogramanweb-2025.webp",
+      "imageAlt": "Certificate of completion for Belajar Dasar Pemrograman Web from Dicoding",
+      "pdf": "belajardasarpemrogramanweb-2025.pdf"
+    }
+  ],
   "contact": {
     "email": "gilangrisqi3@gmail.com",
     "linkedin": "https://www.linkedin.com/in/gilang-risqi/",
@@ -191,6 +277,7 @@
       "achievements": "Achievements",
       "training": "Training",
       "education": "Education",
+      "certifications": "Certifications",
       "contact": "Contact"
     },
     "labels": {
@@ -201,6 +288,7 @@
         "achievements": "Achievements",
         "training": "Training",
         "education": "Education",
+        "certifications": "Certifications",
         "contact": "Contact"
       },
       "hero": {
@@ -228,6 +316,15 @@
         "teamNote": "Team note",
         "viewRepo": "View Repository",
         "viewDemo": "View Demo"
+      },
+      "certifications": {
+        "issued": "Issued",
+        "validUntil": "Valid until",
+        "credentialId": "Credential ID",
+        "verify": "Verify",
+        "openPdf": "Open PDF",
+        "close": "Close",
+        "preview": "Enlarge certificate"
       },
       "contact": {
         "intro": "Feel free to reach out through any of the channels below.",

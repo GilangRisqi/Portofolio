@@ -175,6 +175,92 @@
       ]
     }
   ],
+  "certifications": [
+    {
+      "id": "cert-codingcamp-2025",
+      "name": "Certificate of Completion Codingcamp 2025 by DBS Foundation",
+      "issuer": "Dicoding",
+      "issueDate": "2025-07",
+      "expiryDate": "",
+      "credentialId": "CC25/GRAD/XXV-07/FC728D5Y2176",
+      "verifyUrl": "",
+      "image": "certificateofcompletioncodingcamp-2025.webp",
+      "imageAlt": "Sertifikat kelulusan Certificate of Completion Codingcamp 2025 by DBS Foundation dari Dicoding",
+      "pdf": "certificateofcompletioncodingcamp-2025.pdf"
+    },
+    {
+      "id": "cert-english-2025",
+      "name": "English for Business Communication",
+      "issuer": "Dicoding",
+      "issueDate": "2025-06",
+      "expiryDate": "",
+      "credentialId": "",
+      "verifyUrl": "",
+      "image": "englishforbusinesscommunication-2025.webp",
+      "imageAlt": "Sertifikat kelulusan English for Business Communication dari Dicoding",
+      "pdf": "englishforbusinesscommunication-2025.pdf"
+    },
+    {
+      "id": "cert-web-intermediate-2025",
+      "name": "Belajar Pengembangan Web Intermediate Dicoding",
+      "issuer": "Dicoding",
+      "issueDate": "2025-05",
+      "expiryDate": "2028-05",
+      "credentialId": "1OP8JQ1MLPQK",
+      "verifyUrl": "https://dicoding.com/certificates/1OP8JQ1MLPQK",
+      "image": "belajarpengembanganwebintermediate-2025.webp",
+      "imageAlt": "Sertifikat kelulusan Belajar Pengembangan Web Intermediate Dicoding dari Dicoding",
+      "pdf": "belajarpengembanganwebintermediate-2025.pdf"
+    },
+    {
+      "id": "cert-fe-fundamental-2025",
+      "name": "Belajar Fundamental Front-End Web Development",
+      "issuer": "Dicoding",
+      "issueDate": "2025-04",
+      "expiryDate": "2028-04",
+      "credentialId": "2VX3K9Q6JXYQ",
+      "verifyUrl": "https://dicoding.com/certificates/2VX3K9Q6JXYQ",
+      "image": "belajarfundamentalfrontendwebdevelopment-2025.webp",
+      "imageAlt": "Sertifikat kelulusan Belajar Fundamental Front-End Web Development dari Dicoding",
+      "pdf": "belajarfundamentalfrontendwebdevelopment-2025.pdf"
+    },
+    {
+      "id": "cert-fe-pemula-2025",
+      "name": "Belajar Membuat Front-End Web untuk Pemula",
+      "issuer": "Dicoding",
+      "issueDate": "2025-03",
+      "expiryDate": "2028-03",
+      "credentialId": "07Z63D3EWZQR",
+      "verifyUrl": "https://dicoding.com/certificates/07Z63D3EWZQR",
+      "image": "belajarmembuatfrontendwebuntukpemula-2025.webp",
+      "imageAlt": "Sertifikat kelulusan Belajar Membuat Front-End Web untuk Pemula dari Dicoding",
+      "pdf": "belajarmembuatfrontendwebuntukpemula-2025.pdf"
+    },
+    {
+      "id": "cert-js-dasar-2025",
+      "name": "Belajar Dasar Pemrograman JavaScript",
+      "issuer": "Dicoding",
+      "issueDate": "2025-03",
+      "expiryDate": "2028-03",
+      "credentialId": "QLZ93N8K9Z5D",
+      "verifyUrl": "https://dicoding.com/certificates/QLZ93N8K9Z5D",
+      "image": "belajardasarpemrogramanjavascript-2025.webp",
+      "imageAlt": "Sertifikat kelulusan Belajar Dasar Pemrograman JavaScript dari Dicoding",
+      "pdf": "belajardasapemrogramanjavascript-2025.pdf"
+    },
+    {
+      "id": "cert-web-dasar-2025",
+      "name": "Belajar Dasar Pemrograman Web",
+      "issuer": "Dicoding",
+      "issueDate": "2025-02",
+      "expiryDate": "2028-02",
+      "credentialId": "GRX534WKKZ0M",
+      "verifyUrl": "https://dicoding.com/certificates/GRX534WKKZ0M",
+      "image": "belajardasarpemrogramanweb-2025.webp",
+      "imageAlt": "Sertifikat kelulusan Belajar Dasar Pemrograman Web dari Dicoding",
+      "pdf": "belajardasarpemrogramanweb-2025.pdf"
+    }
+  ],
   "contact": {
     "email": "gilangrisqi3@gmail.com",
     "linkedin": "https://www.linkedin.com/in/gilang-risqi/",
@@ -190,6 +276,7 @@
       "achievements": "Pencapaian",
       "training": "Pelatihan",
       "education": "Pendidikan",
+      "certifications": "Sertifikasi",
       "contact": "Kontak"
     },
     "labels": {
@@ -200,6 +287,7 @@
         "achievements": "Pencapaian",
         "training": "Pelatihan",
         "education": "Pendidikan",
+        "certifications": "Sertifikasi",
         "contact": "Kontak"
       },
       "hero": {
@@ -227,6 +315,15 @@
         "teamNote": "Catatan tim",
         "viewRepo": "Lihat Repositori",
         "viewDemo": "Lihat Demo"
+      },
+      "certifications": {
+        "issued": "Diterbitkan",
+        "validUntil": "Berlaku sampai",
+        "credentialId": "ID Kredensial",
+        "verify": "Verifikasi",
+        "openPdf": "Buka PDF",
+        "close": "Tutup",
+        "preview": "Perbesar sertifikat"
       },
       "contact": {
         "intro": "Silakan hubungi saya melalui salah satu saluran berikut.",
