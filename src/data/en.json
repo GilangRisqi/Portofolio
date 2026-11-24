@@ -40,7 +40,7 @@
       "responsibilities": [
         "Collaborated with two team members to develop a web application supporting daily report recording across several departments at a printing company.",
         "Developed a daily report input feature to support the recording of operational activities.",
-        "Implemented Update and Delete functionalities accessible to users with the admin role.",
+        "Digitalized daily reports, thereby increasing reporting effectiveness.",
         "Worked collaboratively within the development team to meet the company's reporting requirements."
       ],
       "competencies": [],
@@ -55,7 +55,7 @@
     },
     {
       "id": "exp-hokben",
-      "hidden": true,
+      "hidden": false,
       "role": "Part-Time Crew Store",
       "organization": "HOKBEN",
       "period": "December 2023 – June 2024",
@@ -78,7 +78,7 @@
     },
     {
       "id": "exp-gerai-air",
-      "hidden": true,
+      "hidden": false,
       "role": "Cashier & Shift Leader",
       "organization": "Gerai Air Minum Biru",
       "period": "March 2022 – April 2023",
@@ -269,7 +269,7 @@
     "email": "gilangrisqi3@gmail.com",
     "linkedin": "https://www.linkedin.com/in/gilang-risqi/",
     "github": "https://github.com/GilangRisqi",
-    "cv": "/cv/Gilang_Risqi_Pratama_CV_IT_Maganghub_ID.pdf"
+    "cv": "/cv/CV_ATS_General_GilangRisqiPratama2.pdf"
   },
   "ui": {
     "nav": {

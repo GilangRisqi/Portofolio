@@ -39,7 +39,7 @@
       "responsibilities": [
         "Berkolaborasi dengan dua anggota tim untuk mengembangkan aplikasi web yang mendukung pencatatan laporan harian dari berbagai subbagian di perusahaan percetakan.",
         "Mengerjakan fitur input laporan harian untuk membantu pencatatan aktivitas operasional perusahaan.",
-        "Mengimplementasikan fungsi Update dan Delete yang dapat diakses oleh pengguna dengan peran admin.",
+        "Melakukan digitalisasi laporan harian sehingga meningkatkan efektifitas pelaporan.",
         "Bekerja dalam tim pengembangan aplikasi untuk memenuhi kebutuhan pelaporan perusahaan."
       ],
       "competencies": [],
@@ -54,7 +54,7 @@
     },
     {
       "id": "exp-hokben",
-      "hidden": true,
+      "hidden": false,
       "role": "Part-Time Crew Store",
       "organization": "HOKBEN",
       "period": "Desember 2023 – Juni 2024",
@@ -77,7 +77,7 @@
     },
     {
       "id": "exp-gerai-air",
-      "hidden": true,
+      "hidden": false,
       "role": "Cashier & Shift Leader",
       "organization": "Gerai Air Minum Biru",
       "period": "Maret 2022 – April 2023",
@@ -268,7 +268,7 @@
     "email": "gilangrisqi3@gmail.com",
     "linkedin": "https://www.linkedin.com/in/gilang-risqi/",
     "github": "https://github.com/GilangRisqi",
-    "cv": "/cv/Gilang_Risqi_Pratama_CV_IT_Maganghub_ID.pdf"
+    "cv": "/cv/CV_ATS_General_GilangRisqiPratama2.pdf"
   },
   "ui": {
     "nav": {
